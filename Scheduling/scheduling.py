@@ -1,7 +1,7 @@
 from apscheduler.schedulers.blocking import BlockingScheduler
 import requests
 
-URL_FOR_UPDATE_MENU = 'http://127.0.0.1:8080/admin/update_menu/admin/admin'
+URL_FOR_UPDATE_MENU = 'http://127.0.0.1:8000/admin/update_menu/admin/admin'
 
 
 def update_menu():
